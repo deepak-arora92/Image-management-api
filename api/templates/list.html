@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Image Management api</title>   
+    </head>
+    <body> 
+    {% if documents %}
+        <ul>
+        {% for document in documents %}
+            <li><a href="{{ document.image.url }}">{{ document.pk }} {{ document.image.name }}</a></li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No Image found.</p>
+    {% endif %}
+    </body>
+</html> 
