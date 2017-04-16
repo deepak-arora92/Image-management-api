@@ -27,13 +27,13 @@ http://localhost:8000/list/[your_api_key]
 you should see all the images related to that particular api key.
 To view an image either click on it or give the image id(shown before the img name)  after the url like below...
 
-http://localhost:8000/list/259809/1
+http://localhost:8000/list/[your_api_key]/1
 
 you should see your uploaded img.
 
 now to delete the image, write delete after the image id as given below.
 
-http://localhost:8000/list/259809/1/delete
+http://localhost:8000/list/[your_api_key]/1/delete
 
 
 
